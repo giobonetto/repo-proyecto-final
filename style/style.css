@@ -84,6 +84,23 @@ header{
    .nav-list li .link{
     color: #081b29;
    }
+
+   
+}
+
+@media (min-width: 420px){
+    .section-1{
+        flex-direction: column;
+        
+    }
+
+    .logo-2{
+        width: 550px;
+    }
+    .list-1{
+        flex-direction: column;
+        
+    }
 }
 
 
@@ -98,7 +115,7 @@ header{
     
     padding: 12px;
     margin-left: 16%;
-    
+    flex-direction: row;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
@@ -129,7 +146,7 @@ li{
 .section-1{
 
     display:flex;
-    
+    flex-direction: row;
     align-items: center;
 
   
@@ -171,7 +188,7 @@ li{
 
 .text-1{
     font-size: 20px;
-  
+    flex-direction: row;
     color: white;
     font-size: 25px;
     font-family: fantasy;
