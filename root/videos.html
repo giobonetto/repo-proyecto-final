@@ -5,59 +5,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="https://kit.fontawesome.com/334c22b86e.js" crossorigin="anonymous"></script>
     <link rel="icon" href="..//images/Mi proyecto.png">
-    <title>Suscribirse a Amaterasu</title>
+    <title>Amaterasu</title>
 </head>
-<header>
-    <div class="logo">
-      <a href="../root/index.html" class="img-1"
-        ><img src="../images/Mi proyecto.png" alt="" class="logo"
-      /></a>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="../images/Mi proyecto.png" alt=""> Amaterasu</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../root/index.html">Inico</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../root/contenido.html">Pinturas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../root/info.html">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../root/ingresar.html">Ingresar</a>
+        </li>
+      </ul>
+     
     </div>
-    <div class="contacto">
-      <button class="abrir-menu" id="abrir">Menu</button>
-      <nav class="nav" id="nav">
-          <button class="cerrar-menu" id="cerrar"> cerrar</button>
-        <ul class="nav-list">
-           <li>
-               <a href="../root/contenido.html" class="link">Pinturas</a>
-           </li>
-           <li>
-               <a href="../root/videos.html" class="link">Videos informativos</a>
-           </li>
-           <li>
-               <a href="../root/ingresar.html" class="link">Ingresar</a>
-           </li>
-            <li>
-               <a href="../root/info.html" class="link">Sobre Nosotros</a>
-           </li>
-        </ul>
-      </nav>
+  </div>
+</nav>
+
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../images/hola.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>LA GRAN OLA DE KANAGAWA</h5>
+        <p> LA PINTURA JAPONESA MÁS FAMOSA DEL MUNDO.</p>
+      </div>
     </div>
-  </header>
+    <div class="carousel-item">
+      <img src="../images/fuji.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fuji Rojo – Katsushika Hokusai</h5>
+        <p>La montaña más famosa de Japón con un precioso color rojo fuego.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="../images/tigre.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tigre – Kawanabe Kyosai</h5>
+        <p> Representa a la perfección el arte de la época.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
-<body>
-
-    <section class="videos-1">
-
-    </section>
 
 
-    <hr>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <footer>
-        <div class="cont">
-            <p class="text-footer">
-                Creador
-            </p>
-            <li class="li-1"><i class="fa-brands fa-instagram"></i><a href="https://www.instagram.com/gio.bonetto/" class="dir-1">  Instagram</a></li>
-            <li class="li-1"><i class="fa-brands fa-twitter"></i><a href="https://twitter.com/Giobonetto"class="dir-1">Twitter</a></li>
-            <li class="li-1"><i class="fa-solid fa-shield-cat"></i><a href="https://github.com/giobonetto"class="dir-1">GitHub</a></li>
-        </div>
-    </footer>
-    <script src="../js/main.js"></script>
 </body>
 
 </html>

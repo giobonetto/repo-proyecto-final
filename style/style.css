@@ -43,7 +43,7 @@ header{
     display: none;
 }
 
-@media screen and (max-width: 390px){
+@media screen and (max-width: 420px){
 
     .abrir-menu{
         display: block;
@@ -84,14 +84,8 @@ header{
    .nav-list li .link{
     color: #081b29;
    }
-   .contenido{
-    display: inline-block;
-   }
 }
 
-@media (max-width: 1200px){
-   
-}
 
 .barra{
     background-color: red;
@@ -124,10 +118,11 @@ li{
     
 }
 .link:hover{
+    
     color:#00abf0;
   
     transition: 0.4s;
-    border-radius: 20px;
+ 
    
    
 }
@@ -156,7 +151,7 @@ li{
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 50px;
     margin-right: 200px;
-
+    color: white;
     padding: 20px;
     
 }
@@ -177,7 +172,7 @@ li{
 .text-1{
     font-size: 20px;
   
-    color: black;
+    color: white;
     font-size: 25px;
     font-family: fantasy;
 
@@ -195,16 +190,21 @@ h1{
 footer{
     width: 50%;
     padding-top: 10px;
+    text-align: center;
+    align-items: center;
 }
-.cont{
+.cont {
     text-align: center;
     width: 300px;
     height: 220px;
-    
-    margin-left: 880px;
+   
   
 }
 
+.li-1{
+    text-align: center;
+    align-items: center;
+}
 hr{
     margin-top: 100px;
     margin-left: 20% ;
@@ -318,6 +318,7 @@ i{
    
     box-sizing: border-box;
     
+    color: white
 }
 
 .list-1{
@@ -336,10 +337,10 @@ i{
     box-sizing: border-box;
 }
 .nav-1{
-    color: black;
+    color: white;
     font-size: 20px;
     box-sizing: border-box;
-    
+    text-decoration: none;
 }
 .sepa{
     box-sizing: border-box;
@@ -351,10 +352,10 @@ i{
 }
 .nav-1:hover{
     
-    color: red;
-    background-color: black;
-    padding: 12px;
-    transition: 0.5s;
+    color:#00abf0 ;
+    
+    
+    transition: 0;
     border-radius: 20px;
 
 }
@@ -363,20 +364,31 @@ i{
     display: flex;
     box-sizing: border-box;
 
+    
 }
-
+.img-dos{
+    width: 400px;
+}
 .img-uni{
     width: 340px;
+   
+    
     
 }
 .text-picture-1{
-    
-    margin-left: 20px;
-    margin-right: 40%;
+    padding-right: 10% ;
     box-sizing: border-box;
     font-size: 20px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30%;
+    text-align: center;
+    align-items: center;
+    padding-top: 10%;
+    
+
+
+
 }
 .sec2{
   
@@ -386,6 +398,23 @@ i{
     box-sizing: border-box;
 }
 
+.section-content-2{
+    color: white;
+    display: flex;
+ 
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 5%;
+
+}
+
+.titulos-h2{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
 
 /*SUSCRIBIRSE*/
 .cuadrado-2{
