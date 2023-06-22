@@ -1,5 +1,0 @@
-DATA DE LA CLASE
-
-box-sizing: border-box;
-
-https://ada7matm.github.io/pages/flexbox.html
