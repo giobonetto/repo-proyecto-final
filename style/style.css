@@ -107,7 +107,8 @@ header {
 @media (min-width: 420px) {
   .section-1 {
     flex-direction: column;
-
+  
+    
   }
 
   .logo-2 {
