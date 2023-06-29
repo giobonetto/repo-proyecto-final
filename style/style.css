@@ -254,6 +254,7 @@ li .link:hover {
 .logo-2 {
   max-width: 100%;
   height: auto;
+
 }
 
 
@@ -288,6 +289,8 @@ li .link:hover {
   color: white;
   padding: 20px;
   display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
 
 
 
@@ -309,20 +312,23 @@ li .link:hover {
 }
 
 
-/*.text-1{
-    font-size: 20px;
+.text-1{
+  
     flex-direction: row;
     color: white;
-    font-size: 25px;
-    font-family: fantasy;
+    font-size: 19px;
+    padding: 20px;
+    justify-content: center;
 
   
-}*/
+}
 
 h1 {
 
   font-size: 40px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*FOOTER*/
