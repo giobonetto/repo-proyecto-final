@@ -38,10 +38,16 @@ header {
   list-style-type: none;
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 .nav-list li .link {
   text-decoration: none;
   color: white;
+}
+
+.nav-3 {
+  width: 100%;
+  background-color: #081b29;
 }
 
 .abrir-menu {
@@ -98,7 +104,8 @@ li .link:hover {
   border-radius: 20px;
      padding-left: 200px;*/
   width: auto;
-  height: auto;
+  height: 500px;
+  padding-left: 12px;
 }
 
 .contenido {
@@ -240,8 +247,10 @@ i {
 }
 
 input {
-  color: red;
+  color: black;
   padding: 12px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .boton {
@@ -331,12 +340,11 @@ button {
 }
 
 .img-uni {
-  width: auto;
+  width: 350px;
   height: 500px;
 }
 
 .text-picture-1 {
-  padding-right: 10%;
   box-sizing: border-box;
   font-size: 20px;
   font-style: italic;
@@ -408,10 +416,8 @@ button {
 }
 
 .imagen-size {
-  height: 40%;
-  width: 100%;
-  object-fit: cover;
-  background-position: center;
+  height: 800px;
+  width: 400px;
 }
 
 sec1 {
@@ -494,7 +500,9 @@ input[type=password] {
     flex-direction: column;
   }
   .logo-2 {
-    width: 200px;
+    align-items: center;
+    width: auto;
+    height: 500px;
   }
   .list-1 {
     flex-direction: column;
@@ -516,7 +524,7 @@ input[type=password] {
   }
   .img-uni {
     align-items: center;
-    width: auto;
+    width: 362;
     height: 500px;
   }
   .sec2 {
@@ -545,5 +553,6 @@ input[type=password] {
     grid-template-columns: 1fr;
   }
 }
+/*CARRUSEL*/
 
 /*# sourceMappingURL=style.css.map */
