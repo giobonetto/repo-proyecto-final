@@ -54,7 +54,7 @@ header {
 	
 }
 
-.nav-3{
+.navbar-expand-lg{
 	width: 100%;
 	
 	background-color:#081b29 ;
@@ -78,6 +78,7 @@ header {
 	flex-direction: row;
 	font-size: 20px;
 	font-family: $font-family_1;
+	background-color: $color_2;
 }
 li {
 	padding: 15px;
@@ -155,7 +156,7 @@ footer {
 }
 .cont {
 	display: flex;
-	flex-direction: column;
+	
 	align-items: center;
 }
 .cont-3 {
@@ -276,7 +277,7 @@ button {
 	box-sizing: border-box;
 	flex-basis: 100%;
 	margin-bottom: 20px;
-	height: 550px;
+	height: 350px;
 	padding: 90px;
 	ul {
 		list-style-type: none;
@@ -320,6 +321,7 @@ button {
 .img-uni {
 width: 350px;
 height: 500px;
+padding-top: 12px;
 }
 .text-picture-1 {
 
@@ -334,12 +336,12 @@ height: 500px;
 	color: $color_1;
 	margin-top: 10px;
 	margin-top: 10px;
-	margin-left: 20px;
+	margin-left: 0px;
 }
 .sec2 {
 	padding-left: 20px;
 	margin-left: 12%;
-	margin-top: 4%;
+	margin-top: 10px;
 	box-sizing: border-box;
 	flex-basis: 100%;
 	display: flex;
