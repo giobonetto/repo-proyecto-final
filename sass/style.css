@@ -555,5 +555,11 @@ input[type=password] {
   }
 }
 /*CARRUSEL*/
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: #00abf0;
+}
 
 /*# sourceMappingURL=style.css.map */

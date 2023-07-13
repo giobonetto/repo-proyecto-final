@@ -79,6 +79,8 @@ header {
 	font-size: 20px;
 	font-family: $font-family_1;
 	background-color: $color_2;
+	
+	
 }
 li {
 	padding: 15px;
@@ -527,3 +529,10 @@ input[type="password"] {
 
 /*CARRUSEL*/
 
+.nav-link{
+	color: white;
+	&:hover{
+		color: $color_3;
+	}
+	
+}
