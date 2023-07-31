@@ -298,6 +298,7 @@ button {
 	}
 	display: flex;
 	justify-content: center;
+
 }
 .nav-1 {
 	color: $color_1;
@@ -946,99 +947,3 @@ input[type="password"] {
 
 /* Estilos para pantalla de escritorio (más de 1680px) */
 
-@media (max-width: 1300px) 
-{
-	.abrir-menu, .cerrar-menu {
-		display: block;
-        background-color: black;
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 15px;
-        border-radius: 12px;
-	}
-	.cerrar-menu {
-		display: block;
-        background-color: black;
-        color: white;
-        border-radius: 12px;
-        font-size: 15px;
-        font-family: 'Times New Roman', Times, serif;
-	}
-	.section-1 {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 20px;
-	}
-	.logo-2 {
-		align-items: center;
-		width: auto;
-		height: 500px;
-	}
-	.list-1 {
-		background-color: transparent;
-		padding-top: 5%;
-		background-color: rgba(255, 255, 255, .2);
-		box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
-		border: 2px solid rgba(255, 255, 255, .5);
-		border-radius: 20px;
-		display: flex;
-		flex: 1;
-		margin-top: 20px;
-		box-sizing: border-box;
-		flex-basis: 30%; /* Ajustado para escritorio */
-		margin-bottom: 20px;
-		height: 350px;
-		padding: 90px; /* Ajustado para escritorio */
-		ul {
-			list-style-type: none;
-			padding: 0;
-			margin: 0;
-		}
-		li {
-			margin-bottom: 10px;
-		}
-	}
-	.cont {
-		display: flex;
-		align-items: center;
-	}
-	.cont-3 {
-		margin-top: 0; /* Ajustado para escritorio */
-		margin-left: 20px;
-		align-items: center;
-		padding-right: 15px;
-		display: flex;
-		margin-right: 20px; /* Ajustado para escritorio */
-	}
-
-	/*
-	.text-footer {
-		margin-bottom: 0;
-		font-size: 25px;
-		font-family: $font-family_3;
-		text-align: center;
-		color: $color_1;
-		font-family: $font-family_2;
-		font-style: italic;
-	}
-	*/
-	.img-1 {
-		display: flex;
-		box-sizing: border-box;
-		text-align: left; 
-		
-		}
-		.contenido{
-			width: 100%;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			
-		}
-	
-		.section-1{
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-}
