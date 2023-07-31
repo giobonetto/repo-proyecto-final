@@ -527,6 +527,60 @@ input[type="password"] {
 	}
 }
 
+
+/*MEDIAQUERIS 768*/
+
+@media (min-width: 769px) {}
+    .abrir-menu, .cerrar-menu {
+        display: block;
+        background-color: black;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        border-radius: 12px;
+    }
+    
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00abf0;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        align-items: end;
+        gap: 1rem;
+        opacity: 1;
+        border-radius: 12px;
+    }
+    
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .nav-list li .link {
+        color: $color_2;
+    }
+
+    .media {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .cuadrado {
+        padding: 10px;
+    }
 /*CARRUSEL*/
 
 .nav-link{
